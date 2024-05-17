@@ -1,0 +1,10 @@
+SELECT
+	NOW(),
+	CURRENT_DATE,
+	CURRENT_TIME,
+	DATE_PART('HOURS', NOW()) AS hours,
+	DATE_PART('MINUTES', NOW()) AS minutes,
+	DATE_PART('SECONDS', NOW()) AS seconds,
+	DATE_PART('DAYS', NOW()) AS days,
+	DATE_PART('MONTHS', NOW()) AS months,
+	DATE_PART('YEARS', NOW()) AS years
